@@ -11,35 +11,35 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="61dp"
-        android:layout_marginBottom="622dp"
         android:onClick="handlerClickStaticFragment"
         android:text="Contoh Static Fragment"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btn_dynaminc_fragment"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintVertical_bias="0.312"
+        tools:layout_editor_absoluteX="-16dp" />
 
     <Button
         android:id="@+id/btn_dynaminc_fragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="118dp"
-        android:layout_marginBottom="565dp"
         android:onClick="handlerClickDynamicFragment"
         android:text="Contoh Dynamic Fragment"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btn_praktikum_fragment"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintVertical_bias="0.101"
+        tools:layout_editor_absoluteX="-16dp" />
 
     <Button
         android:id="@+id/btn_praktikum_fragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="176dp"
-        android:layout_marginBottom="507dp"
         android:onClick="handlerClickPraktikumFragment"
         android:text="Tugas Praktikum Fragment"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="16dp" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
